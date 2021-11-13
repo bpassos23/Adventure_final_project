@@ -1,0 +1,25 @@
+version: 2
+
+sources: 
+    - name: IndiciumAdventures110112021
+      tables:
+        - name: person_address
+          description: Tabela com informações de endereços (DIM)
+        - name: person_countryregion
+          description: Tabela com as informações das regiões (DIM)
+        - name: person_stateprovince
+          description: Tabela de informações das províncias (DIM)
+        - name: production_product
+          description: Tabela de informações dos produtos (DIM)
+        - name: sales_creditcard
+          description: Tabela de informações dos cartões de compra (DIM)
+        - name: sales_customer
+          description: Tabela de informações dos clientes (DIM)
+        - name: sales_salesorderdetail
+          description: Detalhes dos pedidos (FACT)
+        - name: sales_salesorderheader
+          description: Descrição dos pedidos (FACT)
+        - name: sales_salesorderheadersalesreason
+          description: Cruzamento de razões de compra dos clientes (FACT)
+        - name: sales_salesreason
+          description: Levantamento dos motivos/razões de compra (DIM)
